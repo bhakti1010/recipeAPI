@@ -1,0 +1,18 @@
+1.Create a new project
+--> django-admin.py startproject projectName projectLocation
+--> This will create one folder with projectName and manage.py file. projectName folder 
+    has multiple files. If we do not specify destination it will create one folder with 
+    projectName and inside that creates above files.
+
+2. Create a app inside project
+--> python3 manage.py startapp appName
+--> This will create one folder with appName and model, view, test and other files 
+    within that folder.
+
+3. Installing apps
+--> We can add via external dependency (requirements.txt file) or by creating app and 
+    adding it to the installed apps in setting.py file. INSTALLED_APPS contains list 
+    of apps that we are using in out project. 
+
+4. Start the django project
+--> python3 manage.py runserver host:port
