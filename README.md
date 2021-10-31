@@ -31,3 +31,5 @@ git push origin branch-name
 ## Task Details
 
 ### 1. Follow the [Udemy API](https://www.udemy.com/course/django-python/) course and add solutions of the challenges.
+
+### Submit pull request
